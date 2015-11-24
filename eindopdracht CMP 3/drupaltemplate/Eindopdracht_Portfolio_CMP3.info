@@ -1,0 +1,42 @@
+name = Eindopdracht_Portfolio_CMP3
+description = A very nice theme
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/buttons.css
+stylesheets[all][] = css/fonts.css
+stylesheets[all][] = css/grid.css
+stylesheets[all][] = css/helpers.css
+stylesheets[all][] = css/home.css
+stylesheets[all][] = css/jaywalker.css
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/offcanvas.css
+
+
+scripts[] = js/vendor/crossroads.js
+scripts[] = js/vendor/crossroads.min.js
+scripts[] = js/vendor/hasher.js
+scripts[] = js/vendor/modernizr-custom.js
+scripts[] = js/vendor/signals.js
+scripts[] = js/vendor/signals.min.js
+
+
+scripts[] = js/helpers.js
+scripts[] = js/jaywalker.js
+scripts[] = js/main.js
+scripts[] = js/utilities.js
+
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+regions[login] = Log in
+regions[slogan] = Slogan
+regions[logo] = Logo
+
+screenshot = images/markers/home.png
+screenshot = css/images/logo.png
+screenshot = css/images/m1.png
